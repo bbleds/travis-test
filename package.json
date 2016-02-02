@@ -1,0 +1,26 @@
+{
+  "name": "travis-test",
+  "version": "1.0.0",
+  "description": "a repository to test travis and coveralls integration",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbleds/travis-test.git"
+  },
+  "author": "Benjamin Bledsoe <bledsoedesigns@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbleds/travis-test/issues"
+  },
+  "homepage": "https://github.com/bbleds/travis-test#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
