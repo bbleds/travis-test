@@ -1,10 +1,8 @@
 "use strict";
 
+var myFunc = function myFunc(apple) {
 
-let myFunc = (apple) => {
-
-	return apple === "dayrin" ?  true : false;
-
-}
+	return apple === "dayrin" ? true : false;
+};
 
 module.exports = myFunc;
