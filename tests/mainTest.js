@@ -1,6 +1,6 @@
 //main test file for travis integration
 const {expect} = require("chai");
-const mainJs = require("../src/main.js");
+const mainJs = require("../build/main.js");
 
 describe('Base test', () => {
 	it("Should return true for true", ()=>{
